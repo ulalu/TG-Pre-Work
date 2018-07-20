@@ -1,3 +1,39 @@
 .header {
   background-color: Cornflowerblue;
+  text-align: center;
+  padding: 20px;
+}
+
+.about-me {
+  font-size: 20px;
+  opacity: 0.50;
+}
+
+.title {
+  font-weight: bold;
+}
+
+h1 {
+  color: Azure;
+  text-transform: uppercase;
+}
+
+body {
+  font-family: Georgia;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');
+}
+
+ul {list-style: none}
+
+li::before {
+  content: "\2022";
+  color: Cornflowerblue;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
 }
