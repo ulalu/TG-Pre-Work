@@ -8,10 +8,16 @@
 }
 
 .a {
-  grid-row-start: 5;
-  grid-row-end: 7;
+  grid-area: 5 / 1 / span 2 / span 2;
 }
 
+.b {
+  grid-area: 2 / 2 / span 3 / span 6;
+}
+
+.c {
+  grid-area: 6 / 8 / span 3 / span 1;
+}
 .box {
   background-color: beige;
   color: black;
