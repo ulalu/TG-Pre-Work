@@ -1,7 +1,4 @@
-const entree = "Enchiladas";
-const price = 12;
+let changeMe = true;
+changeMe= false;
 
-console.log(entree);
-console.log(price);
-
-entree = 'Tacos';
+console.log(changeMe);
