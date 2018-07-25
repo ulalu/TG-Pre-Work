@@ -1,7 +1,16 @@
-let isSoccerFan = true;
+let wordCount = 1;
 
-if (isSoccerFan === true) {
-  console.log('Goal!')
+if (wordCount) {
+  console.log("Great! You've started your work!");
 } else {
-  console.log('No goal!')
+  console.log('Better get to work!');
+}
+
+
+let favoritePhrase = 'The time has come the walrus said.';
+
+if (favoritePhrase) {
+  console.log("This string doesn't seem to be empty.");
+} else {
+  console.log('This string is definitely empty.');
 }
