@@ -1,13 +1,8 @@
-let newYearsResolutions = ['Exercize More','Build a Web App','Plant a Food Garden']
+let groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
 
-newYearsResolutions[1] = 'Learn a new language';
-let listItem = newYearsResolutions[0]
+groceryList.shift();
 
-console.log(newYearsResolutions[2])
-console.log(newYearsResolutions[3])
-console.log(newYearsResolutions.length)
+groceryList.unshift('popcorn');
+console.log(groceryList);
 
-newYearsResolutions.push('Learn how to keep bees', 'Save to buy a car in cash')
-console.log(newYearsResolutions)
-
-newYearsResolutions.pop()
+console.log(groceryList.slice(1, 4))
