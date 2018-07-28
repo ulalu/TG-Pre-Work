@@ -20,4 +20,5 @@ console.log(person['age']);
 console.log(person[alarm]);
 
 person.hobbies = ['Sewing','Painting']
+person.hobbies = ['Cycling']
 console.log(person['hobbies'])
