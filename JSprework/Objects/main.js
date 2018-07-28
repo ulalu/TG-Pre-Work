@@ -4,6 +4,7 @@ let person = {
   weekendAlarm: 'No alarms needed',
   weekAlarm: 'Alarm set to 7AM',
   sayHello: () =>{return 'Hello, there!'},
+  sayGoodbye() {return 'Goodbye!'}
 }
 
 let day = 'Saturday';
