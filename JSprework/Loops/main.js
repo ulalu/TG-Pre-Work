@@ -1,5 +1,10 @@
-let vacationSpots = ['Mumbai', 'Capetown', 'Florence']
+let myPlaces = ['Mumbai','Capetown','Florence']
+let friendPlaces = ['Rome','Parma','Florence']
 
-for (let vacationSpotIndex = vacationSpots.length-1; vacationSpotIndex >= 0; vacationSpotIndex--) {
-  console.log('I would love to visit ' + vacationSpots[vacationSpotIndex]);
+for (let myPlacesIndex = 0; myPlacesIndex < myPlaces.length; myPlacesIndex++) {
+  for (let friendPlacesIndex = 0; friendPlacesIndex < friendPlaces.length; friendPlacesIndex++) {
+		if (myPlaces[myPlacesIndex] === friendPlaces[friendPlacesIndex]) {
+      console.log(friendPlaces[friendPlacesIndex]);
+    }
+  }
 }
