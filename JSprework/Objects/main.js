@@ -3,7 +3,7 @@ let person = {
   age: 27,
   weekendAlarm: 'No alarms needed',
   weekAlarm: 'Alarm set to 7AM',
-  sayHello: () =>{return 'Hello, there!'},
+  sayHello: function(){return `Hello, myname is ${this.name}.`},
   sayGoodbye() {return 'Goodbye!'}
 }
 
