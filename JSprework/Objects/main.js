@@ -18,3 +18,6 @@ if (day === 'Saturday' || day === 'Sunday') {
 console.log(person['name']);
 console.log(person['age']);
 console.log(person[alarm]);
+
+person.hobbies = ['Sewing','Painting']
+console.log(person['hobbies'])
