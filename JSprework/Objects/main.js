@@ -10,3 +10,5 @@ set age(newAge) {
   }
 }
 };
+
+person.age = 39;
