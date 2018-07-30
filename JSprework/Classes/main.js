@@ -13,7 +13,7 @@ class HospitalEmployee {
   }
 
   takeVacationDays(daysOff) {
-    this._remainingVacationDays -= daysOff;
+    this._remainingVacationDays = remainingVacationDays - daysOff;
   }
 }
 
@@ -25,3 +25,4 @@ class Nurse extends HospitalEmployee {
 }
 
 const nurseOlynyk = new Nurse('Olynyk', ['Trauma', 'Pediatrics'])
+console.log(nurseOlynyk.remainingVacationDays)
