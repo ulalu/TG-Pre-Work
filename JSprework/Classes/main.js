@@ -13,7 +13,12 @@ class HospitalEmployee {
   }
 
   takeVacationDays(daysOff) {
-    this._remainingVacationDays = this._remainingVacationDays - daysOff;
+    this._remainingVacationDays -= daysOff;
+  }
+
+  static generatePassword(){
+    const randomInteger = Math.floor(Math.random()*10000);
+    return randomInteger
   }
 }
 
@@ -28,13 +33,12 @@ class Nurse extends HospitalEmployee {
   }
 
   addCertification(newCertification) {
-    this._certifications.push(newCertification);
+    this.certifications.push(newCertification);
   }
 }
 
 const nurseOlynyk = new Nurse('Olynyk', ['Trauma','Pediatrics']);
 nurseOlynyk.takeVacationDays(5);
 console.log(nurseOlynyk.remainingVacationDays);
-
-nurseOlynyk.addCertification('Genetics')
-console.log(nurseOlynyk.certifications)
+nurseOlynyk.addCertification('Genetics');
+console.log(nurseOlynyk.certifications);
